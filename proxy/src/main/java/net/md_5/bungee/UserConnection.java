@@ -213,7 +213,7 @@ public final class UserConnection implements ProxiedPlayer
                     packetQueue.add( packet );
                 } else
                 {
-                    BungeeCord.getInstance().getLogger().warning( "Too many queued packets. Bad API usage? Try removing plugins and report to the authors. This prevented the server from overloading." );
+                    BungeeCord.getInstance().getLogger().warning( "Too many queued packets to client. Bad API usage? Try removing plugins and report to the authors. This prevented the server from overloading." );
                 }
             } else
             {
